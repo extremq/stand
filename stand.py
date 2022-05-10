@@ -6,7 +6,7 @@ alarm_count = 0
 
 print(f"The alarm has been played 0 times.", end="\r")
 while True:
-    time.sleep(5) # Every 15 minutes, play an alarm sound.
+    time.sleep(15 * 60) # Every 15 minutes, play an alarm sound.
     playsound(alarm_path)
 
     alarm_count += 1
