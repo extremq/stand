@@ -1,7 +1,7 @@
 from playsound import playsound
 import time
 
-alarm_path = 'INSERT FULL ALARM PATH'
+alarm_path = 'alarm.wav'
 
 while True:
     playsound(alarm_path)
